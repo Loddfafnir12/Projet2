@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
   font-family: "Raleway", sans-serif;
+  padding: 0px;
 }
 
 :root {
@@ -62,6 +63,9 @@ a {
   text-decoration: none;
 }
 
+.search-bar{
+    flex-direction: row;
+}
 .section-title {
   margin: 0;
   font-size: 22px;
@@ -199,6 +203,10 @@ a {
     align-items: center;
     padding: 0px;
     padding-bottom: 10px;
+  }
+  .main-container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .menu {
     margin-top: 10px;
