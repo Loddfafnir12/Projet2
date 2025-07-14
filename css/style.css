@@ -23,7 +23,7 @@ header {
   box-sizing: border-box;
 }
 .menu {
-  width: fit-content + 10px;
+  width: fit-content;
   display: flex;
   margin-top: 0px;
   justify-content: space-between;
